@@ -1,0 +1,16 @@
+:root {
+  --light-blue: #EEF5FF;
+  --medium-blue: #C7DEFF;
+  --dark-blue: #407BFF;
+  --light-yellow: #F8E062;
+  --dark-yellow: #EAB112;
+  --pink: #FF5A5A;
+  font-family: poppins, Arial, sans-serif;
+  background: var(--light-blue);
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
