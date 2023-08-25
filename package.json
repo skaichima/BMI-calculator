@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://skaichima.github.io/BMI-Calculator",
+  "homepage": "https://skaichima.github.io/BMI-calculator/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
