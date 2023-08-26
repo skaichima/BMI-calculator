@@ -26,13 +26,13 @@ useEffect(() => {
     <nav className="navbar"  style={{backgroundColor: navbarColor, boxShadow: navbarShadow}}>
       <ul className="navlist">
         <li className="navlist-item">
-          <Link className="list-item" to="/">Dashboard</Link>
+          <Link className="list-item" to="/BMI-Calculator/">Dashboard</Link>
         </li>
         <div className='navlist-item'>
-          <img src={logo} alt="" />
+          <img src={logo} alt="company logo" />
         </div>
         <li className="navlist-item">
-          <Link className="list-item" to="/bmi_calculator">BMI Calculator</Link>
+          <Link className="list-item" to="/BMI-Calculator/bmi_calculator">BMI Calculator</Link>
         </li>
       </ul>
     </nav>

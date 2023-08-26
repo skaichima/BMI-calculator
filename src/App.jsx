@@ -9,9 +9,9 @@ const App = () => {
     return (
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Layout />}>
+          <Route path="/BMI-Calculator/" element={<Layout />}>
             <Route index element={<Dashboard />}/>
-            <Route path='bmi_calculator' element={<BmiCalculator />}/>
+            <Route path='/BMI-Calculator/bmi_calculator' element={<BmiCalculator />}/>
           </Route>
         </Routes>
       </BrowserRouter>

@@ -23,10 +23,10 @@ function Dashboard() {
           </h2>
         </div>
 
-        <Link className="link" to="/bmi_calculator">
+        <Link className="link" to="/BMI-Calculator/bmi_calculator">
           <span>BMI Calculator</span>
           <div className="link-btn">
-            <img src={rightButton} alt="" />
+            <img src={rightButton} alt="right arrow" />
           </div>
         </Link>
       </section>
